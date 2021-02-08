@@ -1,0 +1,45 @@
+.header{
+  background-color: red;
+  display:flex;
+  flex-direction:row;
+  padding: 0 20px;
+  justify-content: space-between;
+}
+
+.header img {
+  width: 50px;
+  height: 50px;
+}
+
+.header-texts{
+  display:flex;
+  flex-direction: row;
+  color: white;
+
+}
+
+.header-texts p {
+  margin-left: 10px;
+}
+
+.search {
+background-image: url("https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_1110,h_508/https://blog.saluteimoveis.com/wp-content/uploads/2019/07/melhores-cidades-para-morar-1110x508.jpg");
+height: 400px;
+display:flex;
+align-items: center;
+justify-content: center;
+}
+
+.search input{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid red;
+}
+
+.search button{
+    padding: 5px;
+    background-color: red;
+    color:white;
+    border:none;
+    border-radius: 5px;
+}
